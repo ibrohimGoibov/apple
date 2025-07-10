@@ -1,0 +1,599 @@
+*{
+    margin: 0%;
+}
+body{
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: rgb(253, 251, 251);
+}
+select{
+    padding: 10px 100px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.st{
+    background-color: rgb(245, 244, 244);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    .p1{
+        font-size: 13px;
+    }
+}
+.p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    button{
+        padding: 10px 20px;
+        border: none;
+        font-size: 17px;
+        outline: none;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+    }
+}
+.st2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    p{
+        font-size: 13px;
+    }
+}
+.bag{
+    display: none;
+}
+
+.num1{
+    text-align: center;
+    margin: auto;
+    img{
+        width: 100px;
+    }
+    p{
+        font-size: 14px;
+        text-align: center;
+        margin: auto;
+    }
+}
+.all{
+    display: flex;
+    align-items: end;
+    gap: 40px;
+}
+span{
+    color: blue;
+}
+.back1{
+    background-color: rgb(245, 244, 244);
+    padding: 20px;
+    text-align: center;
+}
+.flex{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    h1{
+        font-size: 100px;
+    }
+}
+.vid{
+    video{
+    width: 100%;
+    }
+}
+.h11{
+    font-size: 60px;
+    padding: 100px;
+}
+.do{
+    padding: 0px;
+    background-color: rgb(241, 247, 247);
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    padding-top: 20px;
+    img{
+        width: 700px;
+    }
+}
+.fl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.txt{
+    text-align: center;
+    margin-left: 40px;
+    h2{
+        font-size: 30px;
+        width: 450px;
+    }
+    button{
+        padding: 12px 20px;
+        margin-top: 10px;
+        border-radius: 50px;
+        color: white;
+        font-size: 18px;
+        border: none;
+        background-color: rgb(52, 156, 240);
+    }
+}
+.fl1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    h1{
+        font-size: 45px;
+    }
+}
+.fltxt{
+    display: flex;
+    gap: 20px;
+    font-size: 17px;
+    color: blue;
+}
+.flbut{
+    border: 2px solid white;
+    padding: 10px;
+    padding: 60px;
+    padding-left: 70px;
+    width: 350px;
+    border-radius: 50px;
+    background-color: white;
+    button{
+        padding: 10px 20px;
+        border: none;
+        font-size: 18px;
+        border-radius: 50px;
+        background-color: white;
+    }
+    .but{
+        background-color: black;
+        color: white;
+    }
+}
+.cir{
+        width: 15px;
+        height: 15px;
+        border-radius: 50px;
+        background-color: rgb(19, 143, 143);
+}
+.cir1{
+        width: 15px;
+        height: 15px;
+        border-radius: 50px;
+        background-color: rgb(234, 227, 227);
+}
+.cir2{
+        width: 15px;
+        height: 15px;
+        border-radius: 50px;
+        background-color: blanchedalmond;
+}
+.cir3{
+        width: 15px;
+        height: 15px;
+        border-radius: 50px;
+        background-color: rgb(50, 49, 49);
+}
+.fl4{
+    display: flex;
+    gap: 10px;
+
+}
+.flmac{
+    text-align: center;
+    img{
+        width: 35   0px;
+    }
+}
+.txt1{
+    h1{
+        margin-top: 20px;
+    }
+    h3{
+        margin-top: 10px;
+    }
+    p{
+        width: 300px;
+        margin: auto;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+}
+.flbut1{
+    margin-top: 10px;
+}
+.none{
+        padding: 10px 20px;
+        border-radius: 50px;
+        font-size: 18px;
+        border: none;
+        background-color: blue;
+        color: white;
+}
+.non{
+    border: none;
+    background-color: white;
+    color: blue;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.mac2{
+    display: flex;
+    gap: 80px;
+    padding: 20px;
+    img{
+        width: 300px;
+    }
+}
+.fl4{
+    margin-left: 140px;
+    padding: 10px;
+}
+.chip1{
+    text-align: center;
+    margin-top: 30px;
+    img{
+        width: 50px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    p{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+}
+.fltxt1{
+    display: flex;
+    gap: 150px;
+    padding: 40px;
+}
+.text1{
+    p{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+}
+.hr1{
+    margin-top: 20px; width: 840px; margin-left: 20px;
+}
+
+.h1{
+    padding: 40px 70px;
+    font-size: 45px;
+}
+
+.txt2{
+    padding: 20px;
+    h2{
+        font-size: 30px;
+    }
+    .p2{
+        width: 560px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    span{
+        background-color: greenyellow;
+        color: black;
+    }
+}
+.bor{
+    border: 2px solid rgb(247, 243, 243);
+    border: none;
+    width: 700px;
+    height: 500px;
+    padding-top: 20px;
+    box-shadow: 0px 0px 10px lightgray;
+    border-radius: 25px;
+    
+    img{
+        width: 700px;
+        margin-top: 10px;
+    }
+}
+.see{
+    color: blue;
+    margin-top: 20px;
+}
+.allbor{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.flbor1{
+    display: none;
+    button{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    color: grey;
+    }
+    .button1{
+        background-color: gray;
+        color: black;
+    }
+}
+.sb{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    margin-top: 50px;
+    .hh1{
+        font-size: 45px;
+        width: 500px;
+    }
+    p{
+        color: blue;
+    }
+
+}
+.sb{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+.num3{
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px lightgray;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    .jaga{
+        width: 40px;
+        margin-top: 15px;
+        margin-left: 300px;
+    }
+    img{
+        width: 50px;
+    }
+    h2{
+        width: 300px;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    p{
+        font-size: 18px;
+        width: 300px;
+        margin-top: 10px;
+    }
+}
+.flbor2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.txt3{
+    .p{
+        width: 300px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+}
+.fl2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    p{
+        font-size: 30px;
+    }
+    /* color: lightskyblue; */
+}
+.last2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(249, 248, 248);
+    padding: 20px;
+    img{
+        width: 750px;
+    }
+    hr{
+        margin-top:15px;
+    }
+}
+.sbb{
+    margin-top: 50px;
+}
+.numl{
+    border: 2px solid black;
+    width: 600px;
+    text-align: center;
+    background-color: rgb(251, 251, 251);
+    border: none;
+    box-shadow: 0px 0px 10px rgb(208, 204, 204);
+    border-radius: 20px;
+    padding: 30px;
+    h2{
+        font-size: 30px;
+    }
+    p{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .pl{
+        color: blue;
+        margin-top: 10px;
+    }
+    img{
+        width: 600px;
+        margin-top: 20px;
+    }
+}
+.last{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.l{
+    img{
+        margin-top: 100px;
+    }
+}
+@media(max-width:510px){
+    body{
+        overflow: hidden;
+    }
+    .st{
+        flex-direction: column;
+        svg{
+            position: absolute;
+            left: 180px;
+            top: 15px;
+        }
+        .p1{
+            width: 75%;
+        }
+    }
+    .p{
+        select{
+            padding: 10px 80px;
+        }
+    }
+    .st2{
+        p{
+            display: none;
+        }
+        margin-left: 50px;
+    }
+    .bag{
+        display: block;
+    }
+    .bi{
+        margin-left: 250px;
+    }
+    .apple{
+        margin-left: -70px;
+    }
+    .flex{
+        flex-direction: column;
+        text-align: start;
+        margin-left: -80px;
+        h1{
+            margin-left: -30px;
+        }
+    }
+    .h11{
+        font-size: 30px;
+        
+    }
+    .fl{
+        flex-direction: column-reverse;
+        img{
+            width: 100%;
+        }
+    }
+    .txt{
+        margin-left: -20px;
+        margin-top: 40px;
+        h2{
+            font-size: 25px;
+            width: 380px;
+        }
+    }
+    .mac2{
+        flex-direction: column;
+    }
+    .fltxt1{
+        flex-direction: column;
+    }
+    .hr1{
+        width: 90%;
+        margin: auto;
+    }
+    .flmac1{
+        position: absolute;
+        top: 3200px;
+        left: 50px;
+    }
+    .text2{
+        position: absolute;
+        top: 3650px;
+        left: 60px;
+    }
+    .bor1{
+        display: none;
+    }
+    .flbor{
+        display: block;
+    }
+    .bor{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .txt2{
+        .p2{
+            width: 350px;
+        }
+    }
+    .nonee{
+        display: none;
+    }
+    .text1{
+        display: none;
+    }
+    .flbor1{
+        display: flex;
+        margin-left: 66%;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    .sb{
+        flex-direction: column;
+        text-align: center;
+        .hh1{
+            font-size: 30px;
+            width: 320px;
+        }
+        p{
+            margin-top: 10px;
+        }
+    }
+    .num3{
+        display: none;
+    }
+    .class{
+        display: block;
+    }
+    .last2{
+        flex-direction: column-reverse;
+        img{
+            width: 90%;
+        }
+    }
+    .l{
+        display: none;
+    }
+    .numl{
+        img{
+            width: 100%;
+        }
+    }
+    
+}
